@@ -2,4 +2,4 @@
 
 Anda bisa menggunakan Script ini untuk membaca mutasi IB BCA anda
 
-Lihat [Dokumentasinya]()
+Lihat [Dokumentasinya](https://github.com/hexters/script-mutasi-bca/wiki)
