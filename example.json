@@ -1,0 +1,55 @@
+{
+  "result": true,
+  "total_transaksi": 8,
+  "saldo": "47577",
+  "data": [
+    {
+      "tgl": "27/10",
+      "ket": "TARIKAN ATM 27/10 0000",
+      "tipe": "DB",
+      "total": "100000"
+    },
+    {
+      "tgl": "31/10",
+      "ket": "TRSF E-BANKING CR 3110/FTSCY/WS95011 300000.00 AHMAD FADYAS NURRA 0000",
+      "tipe": "CR",
+      "total": "300000"
+    },
+    {
+      "tgl": "01/11",
+      "ket": "TARIKAN ATM 01/11 0000",
+      "tipe": "DB",
+      "total": "300000"
+    },
+    {
+      "tgl": "03/11",
+      "ket": "TARIKAN ATM 03/11 0000",
+      "tipe": "DB",
+      "total": "100000"
+    },
+    {
+      "tgl": "16/11",
+      "ket": "TRSF E-BANKING CR 16/11  WSID:Z2601 FARHANA 0000",
+      "tipe": "CR",
+      "total": "450753"
+    },
+    {
+      "tgl": "18/11",
+      "ket": "BIAYA ADM 0000",
+      "tipe": "DB",
+      "total": "15000"
+    },
+    {
+      "tgl": "22/11",
+      "ket": "TARIKAN ATM 22/11 0000",
+      "tipe": "DB",
+      "total": "100000"
+    },
+    {
+      "tgl": "PEND",
+      "ket": "TRSF E-BANKING CR 2511/FTSCY/WS95011 20233.00 AHMAD FADYAS NURRA 0000",
+      "tipe": "CR",
+      "total": "450911"
+    }
+  ]
+}
