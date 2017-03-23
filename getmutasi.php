@@ -29,12 +29,14 @@ $pass   = $akun['password'];
 $res = [];
 
 $transactions = $parser->getTransactions( $bank, $user, $pass );
-if ( !$transactions ):
-  $res['result'] = false;
-  $res['err'] = 'Gagal mengambil transaksi';
-else:
-  $balance = $parser->getBalance( $bank, $user, $pass );
+$balance = $parser->getBalance( $bank, $user, $pass );
 
+if ( !$transactions ):
+  $res['result'] = true;
+  $res['total_transaksi'] = 0;
+  $res['saldo'] = number_format($balance,0,'','');
+  $res['data'] = [];
+else:  
   $res['result'] = true;
   $res['total_transaksi'] = count($transactions);
   $res['saldo'] = number_format($balance,0,'','');
